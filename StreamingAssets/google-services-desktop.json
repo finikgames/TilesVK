@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553373383174",
+    "project_id": "tiles-794d8",
+    "storage_bucket": "tiles-794d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553373383174:android:62fca24d87296ef27de187",
+        "android_client_info": {
+          "package_name": "com.finik.tile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553373383174-k55113jhg8fvnao1n1d1rb8rrvn3s2bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVn14equCe4kA6J_Y-ViLvwvjv1hXAgEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553373383174-k55113jhg8fvnao1n1d1rb8rrvn3s2bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
