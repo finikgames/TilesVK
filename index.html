@@ -17,9 +17,9 @@
   <script src="Build/Tiles-VK.loader.js"></script>
   <script>
     const settings = {
-      dataUrl: "Build/31874b2ad459fc70f6c7b6ebc3e9471c.data.unityweb",
-      frameworkUrl: "Build/48b480495de4fe5b1737b8e50dded759.js.unityweb",
-      codeUrl: "Build/9e45def99fa818a5ff30395bc6f55521.wasm.unityweb",
+      dataUrl: "Build/ed868617b350a09df605ddc89a7f14b2.data.unityweb",
+      frameworkUrl: "Build/09abd8143260e846b169cdc514ffa2d8.js.unityweb",
+      codeUrl: "Build/39a58fe4448958d3759f9ba090a69fee.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Finik",
       productName: "Tile Connect",
@@ -40,6 +40,8 @@
       });
     }, 500); // Wait half a second before loading. Makes page more responsive on reload.
   </script>
+  <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+<script> vkBridge.send('VKWebAppInit'); </script>
 </body>
 
 </html>
